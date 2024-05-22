@@ -1,4 +1,4 @@
-# ml-service
+# Ai in Your database
 
 This application requires 3 components to run:
 
