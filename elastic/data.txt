@@ -1,0 +1,55 @@
+POST _bulk
+{ "index" : { "_index" : "book"} }
+{ "short_description": "The novel details two days in the life of 16-year-old Holden Caulfield after he has been expelled from prep school. Confused and disillusioned, Holden searches for truth and rails against the “phoniness” of the adult world.", "name": "The Catcher in te Rye", "author": "J. D. Salinger"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the “spice” melange, a drug capable of extending life and enhancing consciousness.", "name": "Dune", "author": "F. Herbert"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "Work of historical fiction based upon the power struggle between the successors of Toyotomi Hideyoshi that led to the founding of the Tokugawa shogunate.", "name": "Shogun", "author": "James Clavell"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "Dystopian novel, that illustrates the unfair and miserable society of Oceania, which is rife with totalitarian practices and constant surveillance.", "name": "1984", "author": "G. Orwell"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "A novel that follows the lives of several aristocratic families during the French invasion of Russia and the Napoleonic Wars. It explores themes of love, war, politics, and the human condition, and is considered one of the great works of literature.","name": "War and Peace","author": "Leo Tolstoy"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "The Hobbit is set in Middle-earth and follows home-loving Bilbo Baggins, the hobbit of the title, who joins the wizard Gandalf and the thirteen dwarves of Thorin's Company, on a quest to reclaim the dwarves' home and treasure from the dragon Smaug.","name": "Hobbit","author": "J.R.R. Tolkien"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "Renowned scientific book explaining the nature of time, the origin of our universe, and the fundamental laws that govern physics. It is a guide to the complexities of the cosmos in a simple and concise language.","name": "A Brief History of Time","author": "Stephen Hawking"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "The erudite Faust is highly successful yet dissatisfied with his life, which leads him to make a pact with the Devil at a crossroads, exchanging his soul for unlimited knowledge and worldly pleasures.","name": "Faust","author": "Johann Wolfgang von Goethe"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "Story follows a young man called Rodion Raskolnikov – first as he plots to kill an elderly pawnbroker, then as he commits the deed, and finally as he confronts the many consequences of his actions.","name": "Crime and Punishment","author": "F. Dostoevsky"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.","name": "Lord of the Rings","author": "J.R.R. Tolkien"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "The Trial by Franz Kafka is a haunting novel that follows the story of a man named Joseph K. who is arrested and put on trial for an unknown crime in a nightmarish and absurd legal system. It delves into themes of guilt, bureaucracy, and the individual's struggle against an incomprehensible and oppressive society.","name": "The Trial","author": "F. Kafka"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "A short treatise on how to acquire power, create a state, and keep it.","name": "The Prince","author": "Niccolo Machiavelli"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "A gripping psychological horror novel by Stephen King. It tells the story of the Torrance family, who become the winter caretakers of the isolated Overlook Hotel. As the hotel's dark past haunts them, they struggle to survive the malevolent forces within.","name": "Shining","author": "Stephen King"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "Story follows the turbulent relationship between Elizabeth Bennet, the daughter of a country gentleman, and Fitzwilliam Darcy, a rich aristocratic landowner. They must overcome the titular sins of pride and prejudice in order to fall in love and marry.","name": "Pride and Prejudice","author": "J. Austen"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "The novel is a bildungsroman, or coming-of-age story, and chronicles the childhood of Scout and Jem Finch as their father Atticus defends a Black man falsely accused of rape. Scout and Jem are mocked by classmates for this.","name": "To Kill a Mockingbird","author": "Harper Lee"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "The novel charts the adventures of a middle aged nobleman who, unsatisfied with ordinary life, views his actions through the lens of medieval chivalry.","name": "Don Quixote","author": "Miguel De Cervantes"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "Geralt of Rivia, a brooding professional monster hunter for hire also known as witcher, struggles to keep his humanity in a medieval dark fantasy world ruled by corrupt kings, queens and mages, where poverty, violence and intolerance are rampant, normal humans are sometimes worse than actual monsters.","name": "The Witcher","author": "A. Sapkowski"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "On the Origin of Species is a work of scientific literature by Charles Darwin that is considered to be the foundation of evolutionary biology.","name": "The Origin of Species","author": "C. Darwin"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "Philosophical novel by Friedrich Nietzsche that explores the themes of religion, morality, culture, and society. It follows the journey of Zarathustra, a prophet who leaves his cave to share his wisdom with humanity.","name": "Thus Spoke Zarathustra","author": "F. Nietzsche"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "Set in Denmark, the play depicts Prince Hamlet and his attempts to exact revenge against his uncle, Claudius, who has murdered Hamlet's father in order to seize his throne and marry Hamlet's mother.","name": "Hamlet","author": "W. Shakespear"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "The play tells the story of a young couple who fall in love at first sight. They risk everything to be together because their families, the Capulets and the Montagues, are enemies.","name": "Romeo and Juliet","author": "W. Shakespear"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "It is a story about Harry Potter, an orphan brought up by his aunt and uncle because his parents were killed when he was a baby. Harry is unloved by his uncle and aunt but everything changes when he is invited to join Hogwarts School of Witchcraft and Wizardry and he finds out he's a wizard.","name": "Harry Potter and Philosopher Stone","author": "J.K. Rowling"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "Oedipus's search for the murderer of Laius in order to end a plague ravaging Thebes.","name": "Oedipus the King","author": "Sophocles"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "story of Captain Ahab's self-destructive obsession with the white whale called Moby Dick. It is told through the narration of Ishmael, a sailor new to Ahab's ship, the Pequod. The plot of the novel follows Ahab's manic drive to kill the whale, even as it endangers his crew.","name": "Moby Dick","author": "H. Melville"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "An epic poem in 24 books traditionally attributed to the ancient Greek poet Homer. The poem is the story of Odysseus, king of Ithaca, who wanders for 10 years (although the action of the poem covers only the final six weeks) trying to get home after the Trojan War.","name": "Odyssey","author": "Homer"}
+{ "index" : { "_index" : "book"} }
+{"short_description": "A classic novel about a group of British schoolboys stranded on an uninhabited island and their descent into savagery. It explores themes of power, human nature, and the dangers of mob mentality.","name": "Lord of the Flies","author": "W. Golding"}
+
+

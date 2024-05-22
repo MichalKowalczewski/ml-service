@@ -1,11 +1,8 @@
 package com.example.mlservice.controller;
 
-import com.example.mlservice.config.Views;
 import com.example.mlservice.elastic.KnnResult;
 import com.example.mlservice.model.book.Book;
-import com.example.mlservice.model.book.BookVectorized;
 import com.example.mlservice.service.BookService;
-import com.fasterxml.jackson.annotation.JsonView;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

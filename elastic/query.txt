@@ -1,0 +1,24 @@
+PUT book-vectorized-all
+{
+  "mappings": {
+    "properties": {
+      "vector": {
+        "type": "dense_vector",
+        "dims": 768,
+        "index": true,
+        "similarity": "dot_product"
+      }
+    }
+  }
+}
+
+GET book-vectorized-all/_search
+{
+  "knn": {
+    "field": "vector",
+    "query_vector": "${vector}",
+    "k": 10,
+    "num_candidates": 100
+  
+  }
+}
